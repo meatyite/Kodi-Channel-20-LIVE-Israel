@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.channel20-live"
+version="2.3.1"
+name="Channel 20 LIVE (Israel)"
+provider-name="sl4v">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Watch the Israeli Channel 20 Live</summary>
+  <description lang="en_GB">Watch the Israeli Channel 20 Live</description>
+  <disclaimer lang="en_GB">LiveStream provided by www.20il.co.il.</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot></screenshot>  
+  </assets>
+  <news>Updated with latest artwork metadata</news>
+</extension>
+</addon>
